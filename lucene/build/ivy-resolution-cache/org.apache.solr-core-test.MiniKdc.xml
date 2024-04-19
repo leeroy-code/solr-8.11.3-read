@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@bogon"
+		conf="test.MiniKdc"
+		confs="test, test.DfsMiniCluster, test.MiniKdc"
+		date="20240419164146"/>
+	<dependencies>
+		<module organisation="org.apache.kerby" name="kerby-kdc">
+			<revision name="1.0.1" status="release" pubdate="20170830181249" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<metadata-artifact status="no" details="" size="6853" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-kdc/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-kdc/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-kdc/1.0.1/kerby-kdc-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerby-kdc" type="jar" ext="jar" status="no" details="" size="19124" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-kdc/jars/kerby-kdc-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-kdc/1.0.1/kerby-kdc-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-minikdc">
+			<revision name="3.2.4" status="release" pubdate="20220712195332" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="72715" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-minikdc/ivy-3.2.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-minikdc/ivy-3.2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-minikdc/3.2.4/hadoop-minikdc-3.2.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="hadoop-minikdc" type="jar" ext="jar" status="no" details="" size="52780" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-minikdc/jars/hadoop-minikdc-3.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-minikdc/3.2.4/hadoop-minikdc-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-simplekdc">
+			<revision name="1.0.1" status="release" pubdate="20170830181214" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="7012" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-simplekdc/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-simplekdc/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-simplekdc" type="jar" ext="jar" status="no" details="" size="20409" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-simplekdc/jars/kerb-simplekdc-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.1/kerb-simplekdc-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-admin">
+			<revision name="1.0.1" status="release" pubdate="20170830181155" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<metadata-artifact status="no" details="" size="7145" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-admin/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-admin/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-admin" type="jar" ext="jar" status="no" details="" size="80980" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-admin/jars/kerb-admin-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-admin/1.0.1/kerb-admin-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-server">
+			<revision name="1.0.1" status="release" pubdate="20170830181132" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="7117" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-server/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-server/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-server" type="jar" ext="jar" status="no" details="" size="82756" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-server/jars/kerb-server-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-server/1.0.1/kerb-server-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-identity">
+			<revision name="1.0.1" status="release" pubdate="20170830181003" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="7012" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-identity/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-identity/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-identity" type="jar" ext="jar" status="no" details="" size="20046" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-identity/jars/kerb-identity-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-client">
+			<revision name="1.0.1" status="release" pubdate="20170830181109" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="7535" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-client/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-client/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-client" type="jar" ext="jar" status="no" details="" size="113017" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-client/jars/kerb-client-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-client/1.0.1/kerb-client-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-common">
+			<revision name="1.0.1" status="release" pubdate="20170830180918" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="7173" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-common/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-common/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-common" type="jar" ext="jar" status="no" details="" size="65464" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-common/jars/kerb-common-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-common/1.0.1/kerb-common-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-crypto">
+			<revision name="1.0.1" status="release" pubdate="20170830180856" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="7009" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-crypto/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-crypto/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-crypto" type="jar" ext="jar" status="no" details="" size="116120" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-crypto/jars/kerb-crypto-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-crypto/1.0.1/kerb-crypto-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerby-util">
+			<revision name="1.0.1" status="release" pubdate="20170830180650" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="6753" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-util/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-util/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerby-util" type="jar" ext="jar" status="no" details="" size="40554" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-util/jars/kerby-util-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-util/1.0.1/kerby-util-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerby-config">
+			<revision name="1.0.1" status="release" pubdate="20170830180629" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="6974" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-config/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-config/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerby-config" type="jar" ext="jar" status="no" details="" size="30674" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-config/jars/kerby-config-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-config/1.0.1/kerby-config-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr4-runtime">
+			<revision name="4.5.1-1" status="release" pubdate="20150821031403" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="3417" time="0" location="/Users/roylee/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.MiniKdc" rev="4.5.1-1" rev-constraint-default="4.5.1-1" rev-constraint-dynamic="4.5.1-1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="antlr4-runtime" type="jar" ext="jar" status="no" details="" size="302034" time="0" location="/Users/roylee/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.1-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.ow2.asm"
+		module="asm-commons-caller"
+		revision="working"
+		conf="default"
+		confs="default"
+		date="20240419164106"/>
+	<dependencies>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="9.3" status="release" pubdate="20220405011721" resolver="public" artresolver="main" homepage="http://asm.ow2.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="BSD-3-Clause" url="https://asm.ow2.io/license.html"/>
+				<metadata-artifact status="no" details="" size="4497" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-commons/ivy-9.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-commons/ivy-9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-commons-caller" conf="default" rev="9.3" rev-constraint-default="9.3" rev-constraint-dynamic="9.3" callerrev="working"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="72716" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="9.3" status="release" pubdate="20220405011717" resolver="public" artresolver="main" homepage="http://asm.ow2.io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="BSD-3-Clause" url="https://asm.ow2.io/license.html"/>
+				<metadata-artifact status="no" details="" size="4238" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-9.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-commons" conf="default, compile, runtime, master" rev="9.3" rev-constraint-default="9.3" rev-constraint-dynamic="9.3" callerrev="9.3"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="jar" ext="jar" status="no" details="" size="34276" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="9.3" status="release" pubdate="20220405011726" resolver="public" artresolver="main" homepage="http://asm.ow2.io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="BSD-3-Clause" url="https://asm.ow2.io/license.html"/>
+				<metadata-artifact status="no" details="" size="4201" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-tree/ivy-9.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-tree/ivy-9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-analysis" conf="compile, runtime" rev="9.3" rev-constraint-default="9.3" rev-constraint-dynamic="9.3" callerrev="9.3"/>
+				<caller organisation="org.ow2.asm" name="asm-commons" conf="default, compile, runtime, master" rev="9.3" rev-constraint-default="9.3" rev-constraint-dynamic="9.3" callerrev="9.3"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="52669" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="9.3" status="release" pubdate="20220405011714" resolver="public" artresolver="main" homepage="http://asm.ow2.io/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="BSD-3-Clause" url="https://asm.ow2.io/license.html"/>
+				<metadata-artifact status="no" details="" size="4011" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm/ivy-9.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm/ivy-9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/9.3/asm-9.3.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-tree" conf="compile, runtime" rev="9.3" rev-constraint-default="9.3" rev-constraint-dynamic="9.3" callerrev="9.3"/>
+				<caller organisation="org.ow2.asm" name="asm-commons" conf="default, compile, runtime, master" rev="9.3" rev-constraint-default="9.3" rev-constraint-dynamic="9.3" callerrev="9.3"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="122176" time="0" location="/Users/roylee/.ivy2/cache/org.ow2.asm/asm/jars/asm-9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/9.3/asm-9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

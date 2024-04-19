@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+-->
+<ivy-module version="2.0">
+  <info organisation="org.apache.solr" module="gcs-repository" revision="working@bogon" status="integration" publication="20240206050715"/>
+  <configurations defaultconfmapping="compile->master;test->master">
+    <conf name="compile" transitive="true"/>
+    <conf name="test" transitive="false"/>
+  </configurations>
+  <dependencies>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.15.2" conf="compile"/>
+    <dependency org="com.google.api" name="api-common" rev="1.8.1" conf="compile"/>
+    <dependency org="com.google.api" name="gax" rev="1.45.0" conf="compile"/>
+    <dependency org="com.google.api" name="gax-httpjson" rev="0.62.0" conf="compile"/>
+    <dependency org="com.google.api-client" name="google-api-client" rev="1.32.1" conf="compile"/>
+    <dependency org="com.google.api.grpc" name="proto-google-common-protos" rev="1.16.0" conf="compile"/>
+    <dependency org="com.google.api.grpc" name="proto-google-iam-v1" rev="0.12.0" conf="compile"/>
+    <dependency org="com.google.apis" name="google-api-services-storage" rev="v1-rev20210127-1.31.0" conf="compile"/>
+    <dependency org="com.google.auth" name="google-auth-library-credentials" rev="0.15.0" conf="compile"/>
+    <dependency org="com.google.auth" name="google-auth-library-oauth2-http" rev="0.15.0" conf="compile"/>
+    <dependency org="com.google.cloud" name="google-cloud-core" rev="1.77.0" conf="compile"/>
+    <dependency org="com.google.cloud" name="google-cloud-core-http" rev="1.77.0" conf="compile"/>
+    <dependency org="com.google.cloud" name="google-cloud-storage" rev="1.113.14" conf="compile"/>
+    <dependency org="com.google.code.gson" name="gson" rev="2.9.1" conf="compile"/>
+    <dependency org="com.google.errorprone" name="error_prone_annotations" rev="2.9.0" conf="compile"/>
+    <dependency org="com.google.http-client" name="google-http-client" rev="1.39.2" conf="compile"/>
+    <dependency org="com.google.http-client" name="google-http-client-appengine" rev="1.39.2" conf="compile"/>
+    <dependency org="com.google.http-client" name="google-http-client-jackson2" rev="1.39.2" conf="compile"/>
+    <dependency org="com.google.j2objc" name="j2objc-annotations" rev="1.3" conf="compile"/>
+    <dependency org="com.google.oauth-client" name="google-oauth-client" rev="1.33.3" conf="compile"/>
+    <dependency org="com.google.protobuf" name="protobuf-java" rev="3.15.0" conf="compile"/>
+    <dependency org="com.google.protobuf" name="protobuf-java-util" rev="3.15.0" conf="compile"/>
+    <dependency org="io.grpc" name="grpc-context" rev="1.19.0" conf="compile"/>
+    <dependency org="io.opencensus" name="opencensus-api" rev="0.21.0" conf="compile"/>
+    <dependency org="io.opencensus" name="opencensus-contrib-http-util" rev="0.21.0" conf="compile"/>
+    <dependency org="org.threeten" name="threetenbp" rev="1.3.3" conf="compile"/>
+
+    <dependency org="com.google.cloud" name="google-cloud-nio" rev="0.122.11" conf="compile"/>
+  </dependencies>
+</ivy-module>

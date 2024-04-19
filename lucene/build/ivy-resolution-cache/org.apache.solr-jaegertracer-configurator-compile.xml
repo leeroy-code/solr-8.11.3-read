@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="jaegertracer-configurator"
+		revision="working@bogon"
+		conf="compile"
+		confs="compile"
+		date="20240419164133"/>
+	<dependencies>
+		<module organisation="io.jaegertracing" name="jaeger-thrift">
+			<revision name="1.6.0" status="release" pubdate="20210407223213" resolver="public" artresolver="main" homepage="https://github.com/jaegertracing/jaeger-client-java" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3442" time="0" location="/Users/roylee/.ivy2/cache/io.jaegertracing/jaeger-thrift/ivy-1.6.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.jaegertracing/jaeger-thrift/ivy-1.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/jaegertracing/jaeger-thrift/1.6.0/jaeger-thrift-1.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="jaegertracer-configurator" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jaeger-thrift" type="jar" ext="jar" status="no" details="" size="704970" time="0" location="/Users/roylee/.ivy2/cache/io.jaegertracing/jaeger-thrift/jars/jaeger-thrift-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/jaegertracing/jaeger-thrift/1.6.0/jaeger-thrift-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.thrift" name="libthrift">
+			<revision name="0.14.1" status="release" pubdate="20210309063555" resolver="public" artresolver="main" homepage="http://thrift.apache.org" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3712" time="0" location="/Users/roylee/.ivy2/cache/org.apache.thrift/libthrift/ivy-0.14.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.thrift/libthrift/ivy-0.14.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/thrift/libthrift/0.14.1/libthrift-0.14.1.pom"/>
+				<caller organisation="org.apache.solr" name="jaegertracer-configurator" conf="compile" rev="0.14.1" rev-constraint-default="0.14.1" rev-constraint-dynamic="0.14.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="libthrift" type="jar" ext="jar" status="no" details="" size="305590" time="0" location="/Users/roylee/.ivy2/cache/org.apache.thrift/libthrift/jars/libthrift-0.14.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/thrift/libthrift/0.14.1/libthrift-0.14.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.jaegertracing" name="jaeger-core">
+			<revision name="1.6.0" status="release" pubdate="20210407223109" resolver="public" artresolver="main" homepage="https://github.com/jaegertracing/jaeger-client-java" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3194" time="0" location="/Users/roylee/.ivy2/cache/io.jaegertracing/jaeger-core/ivy-1.6.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.jaegertracing/jaeger-core/ivy-1.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/jaegertracing/jaeger-core/1.6.0/jaeger-core-1.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="jaegertracer-configurator" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jaeger-core" type="jar" ext="jar" status="no" details="" size="147168" time="0" location="/Users/roylee/.ivy2/cache/io.jaegertracing/jaeger-core/jars/jaeger-core-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/jaegertracing/jaeger-core/1.6.0/jaeger-core-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

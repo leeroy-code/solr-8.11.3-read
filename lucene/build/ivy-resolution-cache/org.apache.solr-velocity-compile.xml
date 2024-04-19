@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="velocity"
+		revision="working@bogon"
+		conf="compile"
+		confs="compile"
+		date="20240419164145"/>
+	<dependencies>
+		<module organisation="org.apache.velocity.tools" name="velocity-tools-view-jsp">
+			<revision name="3.1" status="release" pubdate="20210228042051" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="8866" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-view-jsp/ivy-3.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-view-jsp/ivy-3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-view-jsp/3.1/velocity-tools-view-jsp-3.1.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="velocity-tools-view-jsp" type="jar" ext="jar" status="no" details="" size="28214" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-view-jsp/jars/velocity-tools-view-jsp-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-view-jsp/3.1/velocity-tools-view-jsp-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.velocity.tools" name="velocity-tools-view">
+			<revision name="3.1" status="release" pubdate="20210228042046" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="9240" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-view/ivy-3.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-view/ivy-3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-view/3.1/velocity-tools-view-3.1.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="velocity-tools-view" type="jar" ext="jar" status="no" details="" size="122622" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-view/jars/velocity-tools-view-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-view/3.1/velocity-tools-view-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.velocity.tools" name="velocity-tools-generic">
+			<revision name="3.1" status="release" pubdate="20210228042039" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="9086" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-generic/ivy-3.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-generic/ivy-3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="velocity-tools-generic" type="jar" ext="jar" status="no" details="" size="216933" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity.tools/velocity-tools-generic/jars/velocity-tools-generic-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.velocity" name="velocity-engine-core">
+			<revision name="2.3" status="release" pubdate="20210303201638" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="7790" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity/velocity-engine-core/ivy-2.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.velocity/velocity-engine-core/ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="velocity-engine-core" type="jar" ext="jar" status="no" details="" size="531308" time="0" location="/Users/roylee/.ivy2/cache/org.apache.velocity/velocity-engine-core/jars/velocity-engine-core-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.10" status="release" pubdate="20200323213936" resolver="public" artresolver="main" homepage="https://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="17408" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.10.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="3.10" rev-constraint-default="3.10" rev-constraint-dynamic="3.10" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="523372" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

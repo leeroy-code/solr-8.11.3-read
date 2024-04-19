@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="solrj"
+		revision="working@bogon"
+		conf="compile"
+		confs="compile"
+		date="20240419164147"/>
+	<dependencies>
+		<module organisation="io.netty" name="netty-transport-native-epoll">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928152710" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="29">
+				<metadata-artifact status="no" details="" size="30465" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-transport-native-epoll/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-transport-native-epoll/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.99.Final/netty-transport-native-epoll-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-transport-native-epoll" type="jar" ext="jar" status="no" details="" size="5725" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.99.Final/netty-transport-native-epoll-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175348" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="27">
+				<metadata-artifact status="no" details="" size="30395" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-handler/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-handler/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.99.Final/netty-handler-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-handler" type="jar" ext="jar" status="no" details="" size="561287" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.99.Final/netty-handler-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-unix-common">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175508" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="30">
+				<metadata-artifact status="no" details="" size="29378" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-transport-native-unix-common/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-transport-native-unix-common/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.99.Final/netty-transport-native-unix-common-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-transport-native-unix-common" type="jar" ext="jar" status="no" details="" size="43968" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-transport-native-unix-common/jars/netty-transport-native-unix-common-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.99.Final/netty-transport-native-unix-common-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175454" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="26">
+				<metadata-artifact status="no" details="" size="30584" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-codec/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-codec/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.99.Final/netty-codec-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-codec" type="jar" ext="jar" status="no" details="" size="345277" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.99.Final/netty-codec-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175727" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="28">
+				<metadata-artifact status="no" details="" size="28159" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-transport/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-transport/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.99.Final/netty-transport-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-transport" type="jar" ext="jar" status="no" details="" size="489989" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.99.Final/netty-transport-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175732" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="25">
+				<metadata-artifact status="no" details="" size="27631" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.99.Final/netty-buffer-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="jar" ext="jar" status="no" details="" size="306588" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.99.Final/netty-buffer-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175523" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="24">
+				<metadata-artifact status="no" details="" size="27641" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.99.Final/netty-resolver-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="jar" ext="jar" status="no" details="" size="37789" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.99.Final/netty-resolver-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.99.Final" status="release" pubdate="20230928175356" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="23">
+				<metadata-artifact status="no" details="" size="32993" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-common/ivy-4.1.99.Final.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.netty/netty-common/ivy-4.1.99.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.99.Final/netty-common-4.1.99.Final.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.1.99.Final" rev-constraint-default="4.1.99.Final" rev-constraint-dynamic="4.1.99.Final" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="netty-common" type="jar" ext="jar" status="no" details="" size="659923" time="0" location="/Users/roylee/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.99.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.99.Final/netty-common-4.1.99.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-alpn-java-client">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203141" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="21">
+				<metadata-artifact status="no" details="" size="64652" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-alpn-java-client/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-alpn-java-client/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-java-client/9.4.53.v20231009/jetty-alpn-java-client-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-alpn-java-client" type="jar" ext="jar" status="no" details="" size="16945" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-alpn-java-client/jars/jetty-alpn-java-client-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-java-client/9.4.53.v20231009/jetty-alpn-java-client-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.http2" name="http2-http-client-transport">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203153" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<metadata-artifact status="no" details="" size="65125" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-http-client-transport/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-http-client-transport/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-http-client-transport/9.4.53.v20231009/http2-http-client-transport-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="http2-http-client-transport" type="jar" ext="jar" status="no" details="" size="42401" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-http-client-transport/jars/http2-http-client-transport-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-http-client-transport/9.4.53.v20231009/http2-http-client-transport-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-client">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203013" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="17">
+				<metadata-artifact status="no" details="" size="64827" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-client/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-client/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.53.v20231009/jetty-client-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-client" type="jar" ext="jar" status="no" details="" size="327897" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-client/jars/jetty-client-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.53.v20231009/jetty-client-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.http2" name="http2-client">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203131" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<metadata-artifact status="no" details="" size="65457" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-client/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-client/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-client/9.4.53.v20231009/http2-client-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="http2-client" type="jar" ext="jar" status="no" details="" size="30297" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-client/jars/http2-client-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-client/9.4.53.v20231009/http2-client-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-alpn-client">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203058" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="22">
+				<metadata-artifact status="no" details="" size="64726" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-alpn-client/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-alpn-client/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/9.4.53.v20231009/jetty-alpn-client-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-alpn-client" type="jar" ext="jar" status="no" details="" size="16510" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-alpn-client/jars/jetty-alpn-client-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/9.4.53.v20231009/jetty-alpn-client-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.http2" name="http2-common">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203053" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<metadata-artifact status="no" details="" size="63876" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-common/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-common/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/9.4.53.v20231009/http2-common-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="http2-common" type="jar" ext="jar" status="no" details="" size="208487" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-common/jars/http2-common-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/9.4.53.v20231009/http2-common-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.http2" name="http2-hpack">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203048" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<metadata-artifact status="no" details="" size="64436" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-hpack/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-hpack/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/9.4.53.v20231009/http2-hpack-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="http2-hpack" type="jar" ext="jar" status="no" details="" size="46331" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty.http2/http2-hpack/jars/http2-hpack-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/9.4.53.v20231009/http2-hpack-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009202936" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="19">
+				<metadata-artifact status="no" details="" size="63278" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.53.v20231009/jetty-http-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="249062" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.53.v20231009/jetty-http-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009202928" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="20">
+				<metadata-artifact status="no" details="" size="62957" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.53.v20231009/jetty-io-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="183014" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.53.v20231009/jetty-io-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009202919" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="18">
+				<metadata-artifact status="no" details="" size="63466" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.53.v20231009/jetty-util-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="588870" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.4.53.v20231009.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.53.v20231009/jetty-util-9.4.53.v20231009.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.36" status="release" pubdate="20220208213514" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6045" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16555" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.36" status="release" pubdate="20220208213351" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<metadata-artifact status="no" details="" size="5870" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41125" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.woodstox" name="woodstox-core">
+			<revision name="6.5.1" status="release" pubdate="20230419101051" resolver="public" artresolver="main" homepage="https://github.com/FasterXML/woodstox" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8061" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/ivy-6.5.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/ivy-6.5.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="6.5.1" rev-constraint-default="6.5.1" rev-constraint-dynamic="6.5.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="woodstox-core" type="bundle" ext="jar" status="no" details="" size="1586395" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/bundles/woodstox-core-6.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.woodstox" name="stax2-api">
+			<revision name="4.2.1" status="release" pubdate="20200514121553" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/stax2-api" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="6760" time="0" location="/Users/roylee/.ivy2/cache/org.codehaus.woodstox/stax2-api/ivy-4.2.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.codehaus.woodstox/stax2-api/ivy-4.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.2.1" rev-constraint-default="4.2.1" rev-constraint-dynamic="4.2.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="stax2-api" type="bundle" ext="jar" status="no" details="" size="195909" time="0" location="/Users/roylee/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-4.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.6.1" status="release" pubdate="20160318013511" resolver="public" artresolver="main" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="12214" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.6.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="3.6.1" rev-constraint-default="3.6.1" rev-constraint-dynamic="3.6.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2213560" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.11.0" status="release" pubdate="20210710094300" resolver="public" artresolver="main" homepage="https://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="22516" time="0" location="/Users/roylee/.ivy2/cache/commons-io/commons-io/ivy-2.11.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/commons-io/commons-io/ivy-2.11.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="327135" time="0" location="/Users/roylee/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.14" status="release" pubdate="20201127030749" resolver="public" artresolver="main" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="9842" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.14.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.14.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.4.14" rev-constraint-default="4.4.14" rev-constraint-dynamic="4.4.14" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="328436" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.5.13" status="release" pubdate="20201003224758" resolver="public" artresolver="main" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="12296" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.5.13.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.5.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.5.13" rev-constraint-default="4.5.13" rev-constraint-dynamic="4.5.13" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="41790" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.5.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.13" status="release" pubdate="20201003224741" resolver="public" artresolver="main" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="12413" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.13.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="4.5.13" rev-constraint-default="4.5.13" rev-constraint-dynamic="4.5.13" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="780321" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.10.1" status="release" pubdate="20230615060325" resolver="public" artresolver="main" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3596" time="0" location="/Users/roylee/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.10.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.10.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.1/snappy-java-1.1.10.1.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="1.1.10.1" rev-constraint-default="1.1.10.1" rev-constraint-dynamic="1.1.10.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="snappy-java" type="bundle" ext="jar" status="no" details="" size="1773713" time="0" location="/Users/roylee/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.10.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.1/snappy-java-1.1.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.6.2" status="release" pubdate="20200904204455" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="19226" time="0" location="/Users/roylee/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.6.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.6.2/zookeeper-3.6.2.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="3.6.2" rev-constraint-default="3.6.2" rev-constraint-dynamic="3.6.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="1245934" time="0" location="/Users/roylee/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.6.2/zookeeper-3.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper-jute">
+			<revision name="3.6.2" status="release" pubdate="20200904204422" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="15027" time="0" location="/Users/roylee/.ivy2/cache/org.apache.zookeeper/zookeeper-jute/ivy-3.6.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.zookeeper/zookeeper-jute/ivy-3.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper-jute/3.6.2/zookeeper-jute-3.6.2.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="3.6.2" rev-constraint-default="3.6.2" rev-constraint-dynamic="3.6.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="zookeeper-jute" type="jar" ext="jar" status="no" details="" size="250405" time="0" location="/Users/roylee/.ivy2/cache/org.apache.zookeeper/zookeeper-jute/jars/zookeeper-jute-3.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper-jute/3.6.2/zookeeper-jute-3.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117062147" resolver="public" artresolver="main" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="6804" time="0" location="/Users/roylee/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="org.apache.solr" name="solrj" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/Users/roylee/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="analysis-extras"
+		revision="working@bogon"
+		conf="compile"
+		confs="compile"
+		date="20240419164116"/>
+	<dependencies>
+		<module organisation="ua.net.nlp" name="morfologik-ukrainian-search">
+			<revision name="4.9.1" status="release" pubdate="20200316022226" resolver="public" artresolver="main" homepage="https://github.com/brown-uk/dict_uk" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2458" time="0" location="/Users/roylee/.ivy2/cache/ua.net.nlp/morfologik-ukrainian-search/ivy-4.9.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/ua.net.nlp/morfologik-ukrainian-search/ivy-4.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ua/net/nlp/morfologik-ukrainian-search/4.9.1/morfologik-ukrainian-search-4.9.1.pom"/>
+				<caller organisation="org.apache.solr" name="analysis-extras" conf="compile" rev="4.9.1" rev-constraint-default="4.9.1" rev-constraint-dynamic="4.9.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="morfologik-ukrainian-search" type="jar" ext="jar" status="no" details="" size="4101105" time="0" location="/Users/roylee/.ivy2/cache/ua.net.nlp/morfologik-ukrainian-search/jars/morfologik-ukrainian-search-4.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ua/net/nlp/morfologik-ukrainian-search/4.9.1/morfologik-ukrainian-search-4.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="morfologik-polish">
+			<revision name="2.1.5" status="release" pubdate="20180219023920" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="3649" time="0" location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-polish/ivy-2.1.5.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-polish/ivy-2.1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/morfologik-polish/2.1.5/morfologik-polish-2.1.5.pom"/>
+				<caller organisation="org.apache.solr" name="analysis-extras" conf="compile" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="morfologik-polish" type="bundle" ext="jar" status="no" details="" size="1886867" time="0" location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-polish/bundles/morfologik-polish-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/morfologik-polish/2.1.5/morfologik-polish-2.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="morfologik-stemming">
+			<revision name="2.1.5" status="release" pubdate="20180219023853" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="3638" time="0" location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-stemming/ivy-2.1.5.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-stemming/ivy-2.1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/morfologik-stemming/2.1.5/morfologik-stemming-2.1.5.pom"/>
+				<caller organisation="org.apache.solr" name="analysis-extras" conf="compile" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="morfologik-stemming" type="bundle" ext="jar" status="no" details="" size="53644" time="0" location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-stemming/bundles/morfologik-stemming-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/morfologik-stemming/2.1.5/morfologik-stemming-2.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="morfologik-fsa">
+			<revision name="2.1.5" status="release" pubdate="20180219023814" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="3386" time="0" location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-fsa/ivy-2.1.5.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-fsa/ivy-2.1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/morfologik-fsa/2.1.5/morfologik-fsa-2.1.5.pom"/>
+				<caller organisation="org.apache.solr" name="analysis-extras" conf="compile" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="morfologik-fsa" type="bundle" ext="jar" status="no" details="" size="20140" time="0" location="/Users/roylee/.ivy2/cache/org.carrot2/morfologik-fsa/bundles/morfologik-fsa-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/morfologik-fsa/2.1.5/morfologik-fsa-2.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.opennlp" name="opennlp-tools">
+			<revision name="1.9.2" status="release" pubdate="20191220230440" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="7347" time="0" location="/Users/roylee/.ivy2/cache/org.apache.opennlp/opennlp-tools/ivy-1.9.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.opennlp/opennlp-tools/ivy-1.9.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.9.2/opennlp-tools-1.9.2.pom"/>
+				<caller organisation="org.apache.solr" name="analysis-extras" conf="compile" rev="1.9.2" rev-constraint-default="1.9.2" rev-constraint-dynamic="1.9.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="opennlp-tools" type="bundle" ext="jar" status="no" details="" size="1276875" time="0" location="/Users/roylee/.ivy2/cache/org.apache.opennlp/opennlp-tools/bundles/opennlp-tools-1.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.9.2/opennlp-tools-1.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ibm.icu" name="icu4j">
+			<revision name="62.1" status="release" pubdate="20180621004549" resolver="public" artresolver="main" homepage="http://icu-project.org/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="Unicode/ICU License" url="http://source.icu-project.org/repos/icu/trunk/icu4j/main/shared/licenses/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2667" time="0" location="/Users/roylee/.ivy2/cache/com.ibm.icu/icu4j/ivy-62.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.ibm.icu/icu4j/ivy-62.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/62.1/icu4j-62.1.pom"/>
+				<caller organisation="org.apache.solr" name="analysis-extras" conf="compile" rev="62.1" rev-constraint-default="62.1" rev-constraint-dynamic="62.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="icu4j" type="jar" ext="jar" status="no" details="" size="12370975" time="0" location="/Users/roylee/.ivy2/cache/com.ibm.icu/icu4j/jars/icu4j-62.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/62.1/icu4j-62.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

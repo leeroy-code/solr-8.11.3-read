@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="server"
+		revision="working@bogon"
+		conf="logging"
+		confs="logging"
+		date="20240419164147"/>
+	<dependencies>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.36" status="release" pubdate="20220208213538" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="5926" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4519" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.36" status="release" pubdate="20220208213514" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6045" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16555" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.36" status="release" pubdate="20220208213351" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="5870" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41125" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lmax" name="disruptor">
+			<revision name="3.4.2" status="release" pubdate="20180409064110" resolver="public" artresolver="main" homepage="http://lmax-exchange.github.com/disruptor" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2724" time="0" location="/Users/roylee/.ivy2/cache/com.lmax/disruptor/ivy-3.4.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.lmax/disruptor/ivy-3.4.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="3.4.2" rev-constraint-default="3.4.2" rev-constraint-dynamic="3.4.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="disruptor" type="jar" ext="jar" status="no" details="" size="83064" time="0" location="/Users/roylee/.ivy2/cache/com.lmax/disruptor/jars/disruptor-3.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-slf4j-impl">
+			<revision name="2.17.2" status="release" pubdate="20220224043039" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="52150" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.17.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.17.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="2.17.2" rev-constraint-default="2.17.2" rev-constraint-dynamic="2.17.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="no" details="" size="24248" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/jars/log4j-slf4j-impl-2.17.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-web">
+			<revision name="2.17.2" status="release" pubdate="20220224043154" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="51514" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-web/ivy-2.17.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-web/ivy-2.17.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-web/2.17.2/log4j-web-2.17.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="2.17.2" rev-constraint-default="2.17.2" rev-constraint-dynamic="2.17.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="log4j-web" type="jar" ext="jar" status="no" details="" size="35879" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-web/jars/log4j-web-2.17.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-web/2.17.2/log4j-web-2.17.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-layout-template-json">
+			<revision name="2.17.2" status="release" pubdate="20220224043007" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="52223" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-layout-template-json/ivy-2.17.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-layout-template-json/ivy-2.17.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-layout-template-json/2.17.2/log4j-layout-template-json-2.17.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="2.17.2" rev-constraint-default="2.17.2" rev-constraint-dynamic="2.17.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="log4j-layout-template-json" type="jar" ext="jar" status="no" details="" size="220067" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-layout-template-json/jars/log4j-layout-template-json-2.17.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-layout-template-json/2.17.2/log4j-layout-template-json-2.17.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-1.2-api">
+			<revision name="2.17.2" status="release" pubdate="20220224042948" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="52347" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/ivy-2.17.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/ivy-2.17.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-1.2-api/2.17.2/log4j-1.2-api-2.17.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="2.17.2" rev-constraint-default="2.17.2" rev-constraint-dynamic="2.17.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="log4j-1.2-api" type="jar" ext="jar" status="no" details="" size="303443" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/jars/log4j-1.2-api-2.17.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-1.2-api/2.17.2/log4j-1.2-api-2.17.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-core">
+			<revision name="2.17.2" status="release" pubdate="20220224042925" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="52639" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.17.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.17.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="2.17.2" rev-constraint-default="2.17.2" rev-constraint-dynamic="2.17.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="1811089" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.17.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-api">
+			<revision name="2.17.2" status="release" pubdate="20220224042833" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="47171" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.17.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.17.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="logging" rev="2.17.2" rev-constraint-default="2.17.2" rev-constraint-dynamic="2.17.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="302511" time="0" location="/Users/roylee/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.17.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

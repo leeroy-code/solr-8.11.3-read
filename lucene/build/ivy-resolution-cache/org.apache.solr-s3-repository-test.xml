@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="s3-repository"
+		revision="working@bogon"
+		conf="test"
+		confs="test"
+		date="20240419164142"/>
+	<dependencies>
+		<module organisation="software.amazon.awssdk" name="url-connection-client">
+			<revision name="2.17.63" status="release" pubdate="20211020032107" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="41">
+				<metadata-artifact status="no" details="" size="32748" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/url-connection-client/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/url-connection-client/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-client/2.17.63/url-connection-client-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="url-connection-client" type="jar" ext="jar" status="no" details="" size="22692" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/url-connection-client/jars/url-connection-client-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-client/2.17.63/url-connection-client-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.36" status="release" pubdate="20220208213538" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="20">
+				<metadata-artifact status="no" details="" size="5926" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4519" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.36" status="release" pubdate="20220208213351" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="21">
+				<metadata-artifact status="no" details="" size="5870" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41125" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.14" status="release" pubdate="20201127030749" resolver="public" artresolver="main" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<metadata-artifact status="no" details="" size="9842" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.14.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.14.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="4.4.14" rev-constraint-default="4.4.14" rev-constraint-dynamic="4.4.14" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="328436" time="0" location="/Users/roylee/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.xml.bind" name="jakarta.xml.bind-api">
+			<revision name="2.3.2" status="release" pubdate="20181227233107" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<metadata-artifact status="no" details="" size="4762" time="0" location="/Users/roylee/.ivy2/cache/jakarta.xml.bind/jakarta.xml.bind-api/ivy-2.3.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/jakarta.xml.bind/jakarta.xml.bind-api/ivy-2.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jakarta.xml.bind-api" type="jar" ext="jar" status="no" details="" size="115498" time="0" location="/Users/roylee/.ivy2/cache/jakarta.xml.bind/jakarta.xml.bind-api/jars/jakarta.xml.bind-api-2.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names">
+			<revision name="2.15.2" status="release" pubdate="20230531074537" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="44136" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/ivy-2.15.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/ivy-2.15.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.2/jackson-module-parameter-names-2.15.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.15.2" rev-constraint-default="2.15.2" rev-constraint-dynamic="2.15.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jackson-module-parameter-names" type="bundle" ext="jar" status="no" details="" size="10346" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-parameter-names/bundles/jackson-module-parameter-names-2.15.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.2/jackson-module-parameter-names-2.15.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations">
+			<revision name="2.15.2" status="release" pubdate="20230531074322" resolver="public" artresolver="main" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="44626" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/ivy-2.15.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/ivy-2.15.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2/jackson-module-jaxb-annotations-2.15.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.15.2" rev-constraint-default="2.15.2" rev-constraint-dynamic="2.15.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jackson-module-jaxb-annotations" type="bundle" ext="jar" status="no" details="" size="36670" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/bundles/jackson-module-jaxb-annotations-2.15.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.15.2/jackson-module-jaxb-annotations-2.15.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.15.2" status="release" pubdate="20230531074535" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="43794" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.15.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.15.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.15.2" rev-constraint-default="2.15.2" rev-constraint-dynamic="2.15.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="no" details="" size="122937" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.15.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.15.2" status="release" pubdate="20230531074531" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="43505" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.15.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.15.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.15.2" rev-constraint-default="2.15.2" rev-constraint-dynamic="2.15.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="no" details="" size="36110" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.15.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-xml">
+			<revision name="2.15.2" status="release" pubdate="20230531080033" resolver="public" artresolver="main" homepage="https://github.com/FasterXML/jackson-dataformat-xml" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="37226" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/ivy-2.15.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/ivy-2.15.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.15.2/jackson-dataformat-xml-2.15.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.15.2" rev-constraint-default="2.15.2" rev-constraint-dynamic="2.15.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-xml" type="jar" ext="jar" status="no" details="" size="126137" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/jars/jackson-dataformat-xml-2.15.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.15.2/jackson-dataformat-xml-2.15.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.woodstox" name="woodstox-core">
+			<revision name="6.5.1" status="release" pubdate="20230419101051" resolver="public" artresolver="main" homepage="https://github.com/FasterXML/woodstox" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8061" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/ivy-6.5.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/ivy-6.5.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="6.5.1" rev-constraint-default="6.5.1" rev-constraint-dynamic="6.5.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="woodstox-core" type="bundle" ext="jar" status="no" details="" size="1586395" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/bundles/woodstox-core-6.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-s3">
+			<revision name="1.12.565" status="release" pubdate="20231007043943" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="5733" time="0" location="/Users/roylee/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/ivy-1.12.565.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/ivy-1.12.565.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.12.565/aws-java-sdk-s3-1.12.565.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.12.565" rev-constraint-default="1.12.565" rev-constraint-dynamic="1.12.565" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-s3" type="jar" ext="jar" status="no" details="" size="1267081" time="0" location="/Users/roylee/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.12.565.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-s3/1.12.565/aws-java-sdk-s3-1.12.565.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk-core">
+			<revision name="1.12.565" status="release" pubdate="20231007044106" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="7301" time="0" location="/Users/roylee/.ivy2/cache/com.amazonaws/aws-java-sdk-core/ivy-1.12.565.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.amazonaws/aws-java-sdk-core/ivy-1.12.565.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.12.565/aws-java-sdk-core-1.12.565.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.12.565" rev-constraint-default="1.12.565" rev-constraint-dynamic="1.12.565" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="aws-java-sdk-core" type="jar" ext="jar" status="no" details="" size="1058459" time="0" location="/Users/roylee/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.12.565.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.12.565/aws-java-sdk-core-1.12.565.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.testing" name="s3mock-junit4">
+			<revision name="2.1.34" status="release" pubdate="20210707000951" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="280634" time="0" location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock-junit4/ivy-2.1.34.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock-junit4/ivy-2.1.34.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/testing/s3mock-junit4/2.1.34/s3mock-junit4-2.1.34.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.1.34" rev-constraint-default="2.1.34" rev-constraint-dynamic="2.1.34" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="s3mock-junit4" type="jar" ext="jar" status="no" details="" size="4847" time="0" location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock-junit4/jars/s3mock-junit4-2.1.34.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/testing/s3mock-junit4/2.1.34/s3mock-junit4-2.1.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-actuator">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171740" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="26">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3284" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.3.12.RELEASE/spring-boot-starter-actuator-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-actuator" type="jar" ext="jar" status="no" details="" size="4802" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-actuator/jars/spring-boot-starter-actuator-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.3.12.RELEASE/spring-boot-starter-actuator-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.micrometer" name="micrometer-core">
+			<revision name="1.5.14" status="release" pubdate="20210512124349" resolver="public" artresolver="main" homepage="https://github.com/micrometer-metrics/micrometer" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8039" time="0" location="/Users/roylee/.ivy2/cache/io.micrometer/micrometer-core/ivy-1.5.14.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/io.micrometer/micrometer-core/ivy-1.5.14.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.5.14/micrometer-core-1.5.14.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.5.14" rev-constraint-default="1.5.14" rev-constraint-dynamic="1.5.14" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="micrometer-core" type="jar" ext="jar" status="no" details="" size="589256" time="0" location="/Users/roylee/.ivy2/cache/io.micrometer/micrometer-core/jars/micrometer-core-1.5.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.5.14/micrometer-core-1.5.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.latencyutils" name="LatencyUtils">
+			<revision name="2.0.3" status="release" pubdate="20151216042828" resolver="public" artresolver="main" homepage="http://latencyutils.github.io/LatencyUtils/" downloaded="false" searched="false" default="false" conf="master" position="19">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="3646" time="0" location="/Users/roylee/.ivy2/cache/org.latencyutils/LatencyUtils/ivy-2.0.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.latencyutils/LatencyUtils/ivy-2.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="LatencyUtils" type="jar" ext="jar" status="no" details="" size="29779" time="0" location="/Users/roylee/.ivy2/cache/org.latencyutils/LatencyUtils/jars/LatencyUtils-2.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.12" status="release" pubdate="20191210202259" resolver="public" artresolver="main" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="master" position="18">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="4925" time="0" location="/Users/roylee/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.12.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.1.12" rev-constraint-default="2.1.12" rev-constraint-dynamic="2.1.12" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="bundle" ext="jar" status="no" details="" size="173763" time="0" location="/Users/roylee/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-actuator-autoconfigure">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171731" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="23">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3520" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.3.12.RELEASE/spring-boot-actuator-autoconfigure-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-actuator-autoconfigure" type="jar" ext="jar" status="no" details="" size="519662" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-actuator-autoconfigure/jars/spring-boot-actuator-autoconfigure-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.3.12.RELEASE/spring-boot-actuator-autoconfigure-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-actuator">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171729" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="24">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2808" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-actuator/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-actuator/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator/2.3.12.RELEASE/spring-boot-actuator-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-actuator" type="jar" ext="jar" status="no" details="" size="596268" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-actuator/jars/spring-boot-actuator-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-actuator/2.3.12.RELEASE/spring-boot-actuator-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.testing" name="s3mock-testsupport-common">
+			<revision name="2.1.34" status="release" pubdate="20210707001014" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="281029" time="0" location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock-testsupport-common/ivy-2.1.34.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock-testsupport-common/ivy-2.1.34.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/testing/s3mock-testsupport-common/2.1.34/s3mock-testsupport-common-2.1.34.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.1.34" rev-constraint-default="2.1.34" rev-constraint-dynamic="2.1.34" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="s3mock-testsupport-common" type="jar" ext="jar" status="no" details="" size="8573" time="0" location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock-testsupport-common/jars/s3mock-testsupport-common-2.1.34.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/testing/s3mock-testsupport-common/2.1.34/s3mock-testsupport-common-2.1.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.testing" name="s3mock">
+			<revision name="2.1.34" status="release" pubdate="20210707001003" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="282144" time="0" location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock/ivy-2.1.34.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock/ivy-2.1.34.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/testing/s3mock/2.1.34/s3mock-2.1.34.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.1.34" rev-constraint-default="2.1.34" rev-constraint-dynamic="2.1.34" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="s3mock" type="jar" ext="jar" status="no" details="" size="86904" time="0" location="/Users/roylee/.ivy2/cache/com.adobe.testing/s3mock/jars/s3mock-2.1.34.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/testing/s3mock/2.1.34/s3mock-2.1.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-jetty">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171744" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="27">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4681" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-jetty/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-jetty/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-jetty/2.3.12.RELEASE/spring-boot-starter-jetty-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-jetty" type="jar" ext="jar" status="no" details="" size="4783" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-jetty/jars/spring-boot-starter-jetty-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-jetty/2.3.12.RELEASE/spring-boot-starter-jetty-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish" name="jakarta.el">
+			<revision name="3.0.3" status="release" pubdate="20190826190007" resolver="public" artresolver="main" homepage="https://projects.eclipse.org/projects/ee4j.el" downloaded="false" searched="false" default="false" conf="master" position="17">
+				<license name="EPL 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="GPL2 w/ CPE" url="https://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4375" time="0" location="/Users/roylee/.ivy2/cache/org.glassfish/jakarta.el/ivy-3.0.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.glassfish/jakarta.el/ivy-3.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jakarta.el" type="jar" ext="jar" status="no" details="" size="237826" time="0" location="/Users/roylee/.ivy2/cache/org.glassfish/jakarta.el/jars/jakarta.el-3.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.websocket" name="jakarta.websocket-api">
+			<revision name="1.1.2" status="release" pubdate="20190806000209" resolver="public" artresolver="main" homepage="https://projects.eclipse.org/projects/ee4j.websocket" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<metadata-artifact status="no" details="" size="4422" time="0" location="/Users/roylee/.ivy2/cache/jakarta.websocket/jakarta.websocket-api/ivy-1.1.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/jakarta.websocket/jakarta.websocket-api/ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2/jakarta.websocket-api-1.1.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jakarta.websocket-api" type="bundle" ext="jar" status="no" details="" size="48650" time="0" location="/Users/roylee/.ivy2/cache/jakarta.websocket/jakarta.websocket-api/bundles/jakarta.websocket-api-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/websocket/jakarta.websocket-api/1.1.2/jakarta.websocket-api-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.servlet" name="jakarta.servlet-api">
+			<revision name="4.0.4" status="release" pubdate="20200618215835" resolver="public" artresolver="main" homepage="https://projects.eclipse.org/projects/ee4j.servlet" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<license name="EPL 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="GPL2 w/ CPE" url="https://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4741" time="0" location="/Users/roylee/.ivy2/cache/jakarta.servlet/jakarta.servlet-api/ivy-4.0.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/jakarta.servlet/jakarta.servlet-api/ivy-4.0.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="4.0.4" rev-constraint-default="4.0.4" rev-constraint-dynamic="4.0.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jakarta.servlet-api" type="jar" ext="jar" status="no" details="" size="82973" time="0" location="/Users/roylee/.ivy2/cache/jakarta.servlet/jakarta.servlet-api/jars/jakarta.servlet-api-4.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-web">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171745" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="30">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3576" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/2.3.12.RELEASE/spring-boot-starter-web-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-web" type="jar" ext="jar" status="no" details="" size="4798" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-web/jars/spring-boot-starter-web-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/2.3.12.RELEASE/spring-boot-starter-web-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-webmvc">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512142959" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="40">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3545" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-webmvc/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-webmvc/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-webmvc" type="jar" ext="jar" status="no" details="" size="956775" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-json">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171732" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="28">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3659" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-json/2.3.12.RELEASE/spring-boot-starter-json-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-json" type="jar" ext="jar" status="no" details="" size="4742" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-json/jars/spring-boot-starter-json-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-json/2.3.12.RELEASE/spring-boot-starter-json-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512143001" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="39">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2914" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-web/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-web/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-web/5.2.15.RELEASE/spring-web-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="no" details="" size="1443952" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-web/jars/spring-web-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-web/5.2.15.RELEASE/spring-web-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171737" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="31">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3630" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.3.12.RELEASE/spring-boot-starter-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-starter" type="jar" ext="jar" status="no" details="" size="4763" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter/jars/spring-boot-starter-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.3.12.RELEASE/spring-boot-starter-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.26" status="release" pubdate="20200228170921" resolver="public" artresolver="main" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5436" time="0" location="/Users/roylee/.ivy2/cache/org.yaml/snakeyaml/ivy-1.26.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.yaml/snakeyaml/ivy-1.26.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.26" rev-constraint-default="1.26" rev-constraint-dynamic="1.26" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="309001" time="0" location="/Users/roylee/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.annotation" name="jakarta.annotation-api">
+			<revision name="1.3.5" status="release" pubdate="20190802191045" resolver="public" artresolver="main" homepage="https://projects.eclipse.org/projects/ee4j.ca" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<license name="EPL 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="GPL2 w/ CPE" url="https://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4257" time="0" location="/Users/roylee/.ivy2/cache/jakarta.annotation/jakarta.annotation-api/ivy-1.3.5.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/jakarta.annotation/jakarta.annotation-api/ivy-1.3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="1.3.5" rev-constraint-default="1.3.5" rev-constraint-dynamic="1.3.5" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jakarta.annotation-api" type="jar" ext="jar" status="no" details="" size="25058" time="0" location="/Users/roylee/.ivy2/cache/jakarta.annotation/jakarta.annotation-api/jars/jakarta.annotation-api-1.3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-logging">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171750" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="29">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3146" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.3.12.RELEASE/spring-boot-starter-logging-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-logging" type="jar" ext="jar" status="no" details="" size="4754" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-starter-logging/jars/spring-boot-starter-logging-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.3.12.RELEASE/spring-boot-starter-logging-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-autoconfigure">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171730" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="25">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2833" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.3.12.RELEASE/spring-boot-autoconfigure-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot-autoconfigure" type="jar" ext="jar" status="no" details="" size="1487041" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot-autoconfigure/jars/spring-boot-autoconfigure-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.3.12.RELEASE/spring-boot-autoconfigure-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot">
+			<revision name="2.3.12.RELEASE" status="release" pubdate="20210610171735" resolver="public" artresolver="main" homepage="https://spring.io/projects/spring-boot" downloaded="false" searched="false" default="false" conf="master" position="32">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2913" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot/ivy-2.3.12.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot/ivy-2.3.12.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="2.3.12.RELEASE" rev-constraint-default="2.3.12.RELEASE" rev-constraint-dynamic="2.3.12.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-boot" type="jar" ext="jar" status="no" details="" size="1127796" time="0" location="/Users/roylee/.ivy2/cache/org.springframework.boot/spring-boot/jars/spring-boot-2.3.12.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.3.12.RELEASE/spring-boot-2.3.12.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512143001" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="35">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3243" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-context/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-context/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="1232112" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-context/jars/spring-context-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512143001" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="37">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-expression/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-expression/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.2.15.RELEASE/spring-expression-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="282167" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.2.15.RELEASE/spring-expression-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512142959" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="33">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2914" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-aop/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-aop/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.2.15.RELEASE/spring-aop-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="372838" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.2.15.RELEASE/spring-aop-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512142954" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="34">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2771" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-beans/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-beans/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="688778" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512142959" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="36">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2765" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-core/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-core/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.2.15.RELEASE/spring-core-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="1446998" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-core/jars/spring-core-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.2.15.RELEASE/spring-core-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jcl">
+			<revision name="5.2.15.RELEASE" status="release" pubdate="20210512142954" resolver="public" artresolver="main" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master" position="38">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2595" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-jcl/ivy-5.2.15.RELEASE.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.springframework/spring-jcl/ivy-5.2.15.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.2.15.RELEASE/spring-jcl-5.2.15.RELEASE.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="test" rev="5.2.15.RELEASE" rev-constraint-default="5.2.15.RELEASE" rev-constraint-dynamic="5.2.15.RELEASE" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="spring-jcl" type="jar" ext="jar" status="no" details="" size="23962" time="0" location="/Users/roylee/.ivy2/cache/org.springframework/spring-jcl/jars/spring-jcl-5.2.15.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.2.15.RELEASE/spring-jcl-5.2.15.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

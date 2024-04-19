@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="server"
+		revision="working@bogon"
+		conf="start"
+		confs="start"
+		date="20240419164147"/>
+	<dependencies>
+		<module organisation="org.eclipse.jetty" name="jetty-start">
+			<revision name="9.4.53.v20231009" status="release" pubdate="20231009203343" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="63790" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-start/ivy-9.4.53.v20231009.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-start/ivy-9.4.53.v20231009.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-start/9.4.53.v20231009/jetty-start-9.4.53.v20231009.pom"/>
+				<caller organisation="org.apache.solr" name="server" conf="start" rev="9.4.53.v20231009" rev-constraint-default="9.4.53.v20231009" rev-constraint-dynamic="9.4.53.v20231009" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jetty-start" type="jar" ext="jar" extra-classifier="shaded" status="no" details="" size="163531" time="0" location="/Users/roylee/.ivy2/cache/org.eclipse.jetty/jetty-start/jars/jetty-start-9.4.53.v20231009-shaded.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-start/9.4.53.v20231009/jetty-start-9.4.53.v20231009-shaded.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Solr managed schema - automatically generated - DO NOT EDIT -->
+<!--商机库-->
+<schema name="example" version="1.6">
+  <uniqueKey>opportunityId</uniqueKey>
+  <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+  <fieldType name="date" class="solr.DatePointField" docValues="true"/>
+  <fieldType name="double" class="solr.DoublePointField"/>
+  <fieldType name="float" class="solr.FloatPointField"/>
+  <fieldType name="ignored" class="solr.StrField" indexed="false" stored="false" multiValued="true"/>
+  <fieldType name="int" class="solr.IntPointField"/>
+  <fieldType name="location" class="solr.LatLonPointSpatialField" docValues="true"/>
+  <fieldType name="long" class="solr.LongPointField"/>
+  <fieldType name="random" class="solr.RandomSortField" indexed="true"/>
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
+  <fieldType name="text_ik" class="solr.TextField" >
+      <analyzer type="index">
+         <tokenizer class="org.wltea.analyzer.lucene.IKTokenizerFactory"/>
+         <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+         <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="false"/>
+         <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="org.wltea.analyzer.lucene.IKTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+  </fieldType>
+  <fieldType name="text_ik_opt" class="solr.TextField" omitNorms="true">
+        <analyzer type="index"  >
+           <tokenizer class="org.wltea.analyzer.lucene.IKTokenizerFactory"/>
+           <filter class="solr.LowerCaseFilterFactory"/>
+        </analyzer>
+        <analyzer type="query">
+          <tokenizer class="org.wltea.analyzer.lucene.IKTokenizerFactory"/>
+          <filter class="solr.LowerCaseFilterFactory"/>
+        </analyzer>
+  </fieldType>
+
+  <field name="_root_" type="string" indexed="true" stored="false"/>
+  <field name="_version_" type="long" indexed="true" stored="true"/>
+  <!-- 商机id，平台类+各平台唯一码 -->
+  <field name="opportunityId" type="string" indexed="true" required="true" stored="true" uninvertible="false" docValues="true"/>
+  <!-- 标文id -->
+  <field name="contentId" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 标题 -->
+  <field name="title" type="string" indexed="false" stored="true" uninvertible="false"/>
+  <!-- 标题（检索） -->
+  <field name="allTitle" type="text_ik" multiValued="true" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 正文（检索） -->
+  <field name="allContent" type="text_ik" multiValued="true" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 中标单位 -->
+  <field name="bidder" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 中标单位（检索） -->
+  <field name="bidderIk" type="text_ik_opt" indexed="true" uninvertible="false" stored="false"/>
+  <!-- 中标金额（字符串） -->
+  <field name="biddingAmount" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 中标金额（double类型） -->
+  <field name="biddingAmountNumber" type="double" uninvertible="false" indexed="true" stored="false" docValues="true"/>
+  <!-- 中标金额单位 -->
+  <field name="biddingAmountUnit" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 招标单位-->
+  <field name="tender" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 招标单位(检索)-->
+  <field name="tenderIk" type="text_ik_opt" indexed="true" uninvertible="false" stored="false"/>
+  <!-- 中标联系人 -->
+  <field name="linkman" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 中标人联系方式 -->
+  <field name="linkPhone" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 招标联系人-->
+  <field name="relationName" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 招标联系方式-->
+  <field name="relationWay" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 发布时间string类型-->
+  <field name="updateTime" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 发布时间int类型-->
+  <field name="updateTimeInt" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 公告发布时间戳 精确到年月日 采购意向列表筛选排序 来源于中台contents接口 采购意向-->
+  <field name="updateTimeYmd" type="long" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 标文类型 -->
+  <field name="proGid" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 地区id -->
+  <field name="newAreaId" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 市id -->
+  <field name="newCity" type="int" indexed="true" stored="false" uninvertible="false" docValues="true" useDocValuesAsStored="true"/>
+  <!-- 区县id -->
+  <field name="newCountry" type="int" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 省id -->
+  <field name="newProvince" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 招标单位一级行业 来源于数据研究院行业性质SDK-->
+  <field name="tenderFirstCategory" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 招标单位二级行业 来源于数据研究院行业性质SDK-->
+  <field name="tenderSecondCategory" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 中标单位一级行业 来源于数据研究院行业性质SDK-->
+  <field name="bidderFirstCategory" type="int" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 中标单位二级行业  来源于数据研究院行业性质SDK-->
+  <field name="bidderSecondCategory" type="int" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 物业标签code集合 -->
+  <field name="industryTagCodeList" type="string" indexed="true" stored="false" multiValued="true" uninvertible="false" docValues="true"/>
+  <!-- 项目名称 -->
+  <field name="extractProjName" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 工期天数(合同周期)-->
+  <field name="extractPeriod" type="int" indexed="true" stored="true" multiValued="false" uninvertible="false"/>
+  <!-- 签约时间-->
+  <field name="agreementTime" type="int" indexed="true" stored="true" multiValued="false" uninvertible="false"/>
+  <!-- 到期时间-->
+<!--   <field name="expirationDate" type="int" indexed="true" stored="true" multiValued="false" uninvertible="false" docValues="true"/> -->
+  <!-- 业务分数-->
+  <field name="businessScore" type="double" uninvertible="false" docValues="true" indexed="true" stored="false"/>
+  <!-- 聚合id-->
+  <field name="groupId" type="string" indexed="true" uninvertible="false" stored="true"/>
+  <!-- 业态 一级-->
+  <field name="propertyPrimary" type="string" indexed="true" uninvertible="false" stored="true"/>
+  <!-- 业态 二级-->
+  <field name="propertySecondary" type="string" indexed="true" uninvertible="false" stored="true"/>
+  <!-- 业态 三级-->
+  <field name="propertyTertiary" type="string" indexed="true"  uninvertible="false" stored="true"/>
+  <!-- 服务面积 -->
+  <field name="serviceArea" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 项目名称 分词-->
+  <field name="extractProjNameIk" type="text_ik_opt" indexed="true" uninvertible="false" stored="false"/>
+  <!-- 到期时间 竣工商机&合约商机-->
+  <field name="expirationDate" type="int" indexed="true" stored="false" multiValued="false" uninvertible="false" docValues="true"/>
+  <!-- 到期时间 合约商机使用 - 新字段 20220816-->
+  <field name="expirationDateNew" type="int" indexed="true" stored="false" multiValued="false" uninvertible="false" docValues="true" />
+  <!-- 到期时间 - 字符串格式 竣工商机用-->
+  <field name="expirationDateString" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 开始时间来源标签 1-全局规则 2-新规则-标题有年份 3-新规则-表格形式 20220816-->
+  <field name="startDateTag" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 开始时间展示字段 String 20220816-->
+  <field name="startDate" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 到期时间展示字段 String 20220816-->
+  <field name="endDate" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 开始时间提取规则 20220816-->
+  <field name="extractionRule" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 开始时间提取依据 20220816-->
+  <field name="extractionBasis" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 附件 20220916--> 
+  <field name="attachmentContent" type="text_ik" multiValued="true" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 项目id groupId与contentId关系存储所需 来源于数据研究院同标聚合接口-竣工商机专用 -->
+  <field name="projectId" type="long" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 项目更新时间发布时间-竣工商机专用 -->
+  <field name="lastUpdateTime" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 标的物 -->
+  <field name="target" type="text_ik" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 建筑面积 -->
+  <field name="buildingArea" type="double" indexed="true" stored="true" uninvertible="false"/>
+  <!--国土领域标示 0否；1是 -->
+  <field name="isLandType" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 金额+contentId 用来唯一标识单条采购意向-->
+  <field name="purchaseId" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 采购意向父级id，有父级值为contentId，无父级，值为-1 来源于中台采购意向结构化接口 -->
+  <field name="purchaseParent" type="long" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 预计采购时间 格式：2020-11 采购意向列表筛选排序 来源于中台采购意向结构化接口 -->
+  <field name="purchaseDate" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 预计采购时间 格式：时间戳（秒），采购意向列表筛选排序 来源于中台采购意向结构化接口 -->
+  <field name="purchaseDateTime" type="long" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 项目金额 （预算金额） 采购意向列表筛选排序 来源于中台采购意向结构化接口 -->
+  <field name="purchaseCount" type="double" uninvertible="false" docValues="true" indexed="true" stored="false"/>
+  <!-- 采购需求概况 采购意向列表筛选排序 来源于中台采购意向结构化接口 -->
+  <field name="purchaseDesc" type="text_ik" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 采购意向标题 purchaseName-purchaseUnitComplete -->
+  <field name="purchaseTitle" type="text_ik" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 采购品目 采购意向列表筛选排序 来源于中台采购意向结构化接口 -->
+  <field name="purchaseType" type="text_ik" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 三分类 1-工程;2-货物;3-服务-->
+  <field name="purchaseCategory" type="int" indexed="true" stored="true"/>
+  <!-- 以下为实时商机数据-->
+  <!-- 招标预算 金额 实时商机-->
+  <field name="budgetAmountNumber" type="double" uninvertible="false" indexed="false" stored="true" docValues="true"/>
+  <!-- 报名开始时间 INT-->
+  <field name="registrationBeginTimeInter" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 报名截止时间 INT-->
+  <field name="registrationEndTimeInter" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 标书截止时间 INT-->
+  <field name="bidingEndTimeInter" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 代理人 -->
+  <field name="agent" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 代理人姓名 -->
+  <field name="agentRelationName" type="string" indexed="true" stored="true"/>
+  <!-- 代理人联系方式 -->
+  <field name="agentRelationWay" type="string" indexed="true" stored="true"/>
+  <!-- 以下为商机库新增字段-->
+  <!-- 平台类型：1为合约商机；2为竣工商机；3为采购意向；4为实时商机-->
+  <field name="projectType" type="int" indexed="true" stored="false" multiValued="false" uninvertible="false" docValues="true"/>
+  <!-- 是否国家直属：1是；2否-->
+  <field name="nation" type="int" indexed="true" stored="true" multiValued="false" uninvertible="false"/>
+  <!-- 直属系统一级 -->
+  <field name="systemFirst" type="string" indexed="true" stored="false" multiValued="true" uninvertible="false" docValues="true"/>
+  <!-- 直属系统二级 -->
+  <field name="systemSecond" type="string" indexed="true" stored="false" multiValued="true" uninvertible="false" docValues="true"/>
+  <!-- 去重标识 0：重复 1：不重复 搜索页只搜索为1的数据，其他页面查询全部-->
+  <field name="primary" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 时间排序字段-->
+  <field name="timeSort" type="int" uninvertible="false" indexed="true" stored="false" docValues="true"/>
+  <!-- 在管企业(项目维度中标单位) 20221114-->
+  <field name="bidderProject" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- catid 20221122 - 实时商机搜索使用-->
+  <field name="catid" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!--二级信息类型 20221122 - 实时商机搜索使用-->
+  <field name="noticeSegmentType" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 是否有附件(0-否 1-是) 20221122 - 实时商机搜索使用-->
+  <field name="hasAnnex" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 代理机构分词 20221122 - 实时商机搜索使用-->
+  <field name="agentIk" type="text_ik" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 业主单位 市id 4端使用 20221201 -->
+  <field name="tenderCity" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 业主单位 省id 4端使用 20221201 -->
+  <field name="tenderProvince" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 经营状态：0天眼查无值；1在业、存续、在营、开业；2其他值 4端使用 20221201 -->
+  <field name="managerStatus" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 经营状态：0天眼查无值；1在业、存续、在营、开业；2其他值 4端使用 20221201 -->
+  <field name="managerStatusString" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 业主单位注册资本 4端使用 20221201 -->
+  <field name="tenderRegCapital" type="double" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 业主单位注册地址 4端使用 20221201 -->
+  <field name="tenderRegAddress" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 消歧后业主单位名称 4端使用 20221201 -->
+  <field name="matchName" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 消歧后业主单位名称 分词 4端使用 20221201 -->
+  <field name="matchNameIk" type="text_ik" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 消歧后中标单位名称 4端使用 20221201 -->
+  <field name="bidderMatchName" type="string" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 消歧后中标单位名称 分词 4端使用 20221201 -->
+  <field name="bidderMatchNameIk" type="text_ik" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 业主单位logoUrl 4端使用 20221201 -->
+  <field name="logoUrl" type="string" indexed="true" stored="true" uninvertible="false" docValues="true"/>
+  <!-- 实时标讯标志：0为非聚合；1为聚合 实时商机使用 20221201 -->
+  <field name="isRealtime" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 建筑类型 (数组, 一级+二级+三级) (其他标签处理)  20221202 -->
+  <field name="buildingTypeList" type="string" indexed="true" stored="false" multiValued="true" uninvertible="false" docValues="true"/>
+  <!-- 标文二级信息类型数组 20221202 -->
+  <field name="noticeSegmentTypeList" type="string" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
+  <!-- 占地面积 20221202 -->
+  <field name="landArea" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 中标时间(时间戳) -->
+  <field name="bidderTimeInt" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 是否中标项目 0否 1是 -->
+  <field name="isBidder" type="int" indexed="true" stored="true" uninvertible="false"/>
+   <!--智能排序分数 微信小程序排序 20221201 -->
+  <field name="wxScore" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- 中标时间(时间戳) 精确到天 20221201 -->
+  <field name="bidderTimeDayInt" type="int" indexed="true" stored="false" uninvertible="false" docValues="true"/>
+  <!-- character_flag = 3 采购意向 合约商机用 20221223 -->
+  <field name="characterFlag" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 评审专家 合约商机用 20221223 -->
+  <field name="extractJudgeList" type="string" multiValued="true" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 开工时间 合约商机用 20221223 -->
+  <field name="extractStartDate" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 项目编号 合约商机用 20221223 -->
+  <field name="xmNumber" type="string" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 是否国企：1是 0否 4端用 20221223 -->
+  <field name="isSOE" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 是否是央企：1是 0否 4端用 20221223 -->
+  <field name="isCentralEnterprises" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 是否单独500企业数据，区分物业数据：1物业数据 0单独数据 20221223 -->
+  <field name="isProperty" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 招标方式：0公开招标、1邀请招标、2竞争性谈判或竞争性磋商、3单一来源采购、4询价、5国务院政府采购监督管理部门认定的其他采购方式、6电子反拍 20230109 -->
+  <field name="biddingType" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 中标单位 市id 4端使用 20230130 -->
+  <field name="bidderCity" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 中标单位 省id 4端使用 20230130 -->
+  <field name="bidderProvince" type="int" indexed="true" stored="true" uninvertible="false"/> 
+  <!-- 进展阶段 龙湖审批数据用 20230214 -->
+  <field name="itemStage" type="int" indexed="true" stored="true" uninvertible="false"/> 
+  <!-- 天眼查招标单位是否有数据：1是；0否  20230223 -->
+  <field name="isTenderTian" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 天眼查中标单位是否有数据：1是；0否  20230223 -->
+  <field name="isBidderTian" type="int" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 上级单位 人脉库用 20230506 --> 
+  <field name="superiorList" type="string" multiValued="true" indexed="true" stored="false" uninvertible="false"/>
+  <!-- 各种标识：petroleum_flag-中石油；ecp_flag-国网ecp 20230606 -->
+  <field name="potFlag" type="string" multiValued="true" indexed="true" stored="true" uninvertible="false"/>
+  <!-- 招标单位 + 项目主营业务类型 -->
+  <field name="matchNameMajor" type="string" indexed="true" stored="false" uninvertible="false" docValues="true" useDocValuesAsStored="true"/>
+  <!-- 物业标签code码，按优先级取单个码值 20230806 -->
+  <field name="industryTagCode" type="int" indexed="true" stored="false" uninvertible="false" docValues="true" useDocValuesAsStored="true"/>
+  <!-- 物业建筑类型 (数组, 一级+二级+三级)  20230806 -->
+  <field name="propertyBuildingTypeList" type="string" indexed="true" stored="false" multiValued="true" uninvertible="false" docValues="true" useDocValuesAsStored="true"/>
+</schema>

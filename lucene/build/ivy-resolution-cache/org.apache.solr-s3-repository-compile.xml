@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="s3-repository"
+		revision="working@bogon"
+		conf="compile"
+		confs="compile"
+		date="20240419164142"/>
+	<dependencies>
+		<module organisation="software.amazon.ion" name="ion-java">
+			<revision name="1.0.2" status="release" pubdate="20170208080019" resolver="public" artresolver="main" homepage="https://github.com/amznlabs/ion-java/" downloaded="false" searched="false" default="false" conf="master" position="22">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3193" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.ion/ion-java/ivy-1.0.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.ion/ion-java/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="ion-java" type="bundle" ext="jar" status="no" details="" size="565410" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.ion/ion-java/bundles/ion-java-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="s3">
+			<revision name="2.17.63" status="release" pubdate="20211020032024" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="17">
+				<metadata-artifact status="no" details="" size="33163" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/s3/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/s3/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/s3/2.17.63/s3-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="s3" type="jar" ext="jar" status="no" details="" size="2884968" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/s3/jars/s3-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/s3/2.17.63/s3-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="sts">
+			<revision name="2.17.63" status="release" pubdate="20211020032101" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="19">
+				<metadata-artifact status="no" details="" size="32279" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/sts/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/sts/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/sts/2.17.63/sts-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="sts" type="jar" ext="jar" status="no" details="" size="288136" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/sts/jars/sts-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/sts/2.17.63/sts-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="aws-xml-protocol">
+			<revision name="2.17.63" status="release" pubdate="20211020032106" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<metadata-artifact status="no" details="" size="32039" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-xml-protocol/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-xml-protocol/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.17.63/aws-xml-protocol-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="aws-xml-protocol" type="jar" ext="jar" status="no" details="" size="94463" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-xml-protocol/jars/aws-xml-protocol-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.17.63/aws-xml-protocol-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="aws-query-protocol">
+			<revision name="2.17.63" status="release" pubdate="20211020032014" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="31779" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-query-protocol/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-query-protocol/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.17.63/aws-query-protocol-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="aws-query-protocol" type="jar" ext="jar" status="no" details="" size="69672" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-query-protocol/jars/aws-query-protocol-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.17.63/aws-query-protocol-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="protocol-core">
+			<revision name="2.17.63" status="release" pubdate="20211020032026" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<metadata-artifact status="no" details="" size="31455" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/protocol-core/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/protocol-core/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.17.63/protocol-core-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="protocol-core" type="jar" ext="jar" status="no" details="" size="34990" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/protocol-core/jars/protocol-core-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.17.63/protocol-core-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="aws-core">
+			<revision name="2.17.63" status="release" pubdate="20211020032034" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="32063" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-core/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-core/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.17.63/aws-core-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="aws-core" type="jar" ext="jar" status="no" details="" size="97542" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/aws-core/jars/aws-core-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.17.63/aws-core-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="auth">
+			<revision name="2.17.63" status="release" pubdate="20211020032049" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="31752" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/auth/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/auth/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/auth/2.17.63/auth-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="auth" type="jar" ext="jar" status="no" details="" size="154161" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/auth/jars/auth-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/auth/2.17.63/auth-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="regions">
+			<revision name="2.17.63" status="release" pubdate="20211020032132" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<metadata-artifact status="no" details="" size="30222" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/regions/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/regions/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/regions/2.17.63/regions-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="regions" type="jar" ext="jar" status="no" details="" size="530997" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/regions/jars/regions-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/regions/2.17.63/regions-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="json-utils">
+			<revision name="2.17.63" status="release" pubdate="20211020032041" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<metadata-artifact status="no" details="" size="35542" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/json-utils/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/json-utils/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/json-utils/2.17.63/json-utils-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="json-utils" type="jar" ext="jar" status="no" details="" size="25230" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/json-utils/jars/json-utils-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/json-utils/2.17.63/json-utils-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="third-party-jackson-core">
+			<revision name="2.17.63" status="release" pubdate="20211020032051" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="20">
+				<metadata-artifact status="no" details="" size="23122" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/third-party-jackson-core/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/third-party-jackson-core/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.63/third-party-jackson-core-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="third-party-jackson-core" type="jar" ext="jar" status="no" details="" size="380005" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/third-party-jackson-core/jars/third-party-jackson-core-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.63/third-party-jackson-core-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="sdk-core">
+			<revision name="2.17.63" status="release" pubdate="20211020032136" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="18">
+				<metadata-artifact status="no" details="" size="32774" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/sdk-core/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/sdk-core/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.17.63/sdk-core-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="sdk-core" type="jar" ext="jar" status="no" details="" size="620232" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/sdk-core/jars/sdk-core-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.17.63/sdk-core-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="profiles">
+			<revision name="2.17.63" status="release" pubdate="20211020032017" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<metadata-artifact status="no" details="" size="29507" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/profiles/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/profiles/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.17.63/profiles-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="profiles" type="jar" ext="jar" status="no" details="" size="30883" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/profiles/jars/profiles-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.17.63/profiles-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="arns">
+			<revision name="2.17.63" status="release" pubdate="20211020032040" resolver="public" artresolver="main" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="29585" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/arns/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/arns/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/arns/2.17.63/arns-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="arns" type="jar" ext="jar" status="no" details="" size="15807" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/arns/jars/arns-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/arns/2.17.63/arns-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="apache-client">
+			<revision name="2.17.63" status="release" pubdate="20211020032148" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="30326" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/apache-client/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/apache-client/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.17.63/apache-client-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="apache-client" type="jar" ext="jar" status="no" details="" size="72360" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/apache-client/jars/apache-client-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.17.63/apache-client-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="http-client-spi">
+			<revision name="2.17.63" status="release" pubdate="20211020032029" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<metadata-artifact status="no" details="" size="28959" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/http-client-spi/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/http-client-spi/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.17.63/http-client-spi-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="http-client-spi" type="jar" ext="jar" status="no" details="" size="66978" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/http-client-spi/jars/http-client-spi-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.17.63/http-client-spi-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="metrics-spi">
+			<revision name="2.17.63" status="release" pubdate="20211020032107" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<metadata-artifact status="no" details="" size="29945" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/metrics-spi/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/metrics-spi/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/metrics-spi/2.17.63/metrics-spi-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="metrics-spi" type="jar" ext="jar" status="no" details="" size="23567" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/metrics-spi/jars/metrics-spi-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/metrics-spi/2.17.63/metrics-spi-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="utils">
+			<revision name="2.17.63" status="release" pubdate="20211020032106" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="21">
+				<metadata-artifact status="no" details="" size="29209" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/utils/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/utils/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.17.63/utils-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="utils" type="jar" ext="jar" status="no" details="" size="122193" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/utils/jars/utils-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.17.63/utils-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="annotations">
+			<revision name="2.17.63" status="release" pubdate="20211020032058" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="22941" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/annotations/ivy-2.17.63.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/annotations/ivy-2.17.63.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.17.63/annotations-2.17.63.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.17.63" rev-constraint-default="2.17.63" rev-constraint-dynamic="2.17.63" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="annotations" type="jar" ext="jar" status="no" details="" size="12300" time="0" location="/Users/roylee/.ivy2/cache/software.amazon.awssdk/annotations/jars/annotations-2.17.63.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.17.63/annotations-2.17.63.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.3" status="release" pubdate="20190823165010" resolver="public" artresolver="main" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2598" time="0" location="/Users/roylee/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="11369" time="0" location="/Users/roylee/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.woodstox" name="woodstox-core">
+			<revision name="6.5.1" status="release" pubdate="20230419101051" resolver="public" artresolver="main" homepage="https://github.com/FasterXML/woodstox" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8061" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/ivy-6.5.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/ivy-6.5.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="6.5.1" rev-constraint-default="6.5.1" rev-constraint-dynamic="6.5.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="woodstox-core" type="bundle" ext="jar" status="no" details="" size="1586395" time="0" location="/Users/roylee/.ivy2/cache/com.fasterxml.woodstox/woodstox-core/bundles/woodstox-core-6.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/woodstox/woodstox-core/6.5.1/woodstox-core-6.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.woodstox" name="stax2-api">
+			<revision name="4.2.1" status="release" pubdate="20200514121553" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/stax2-api" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="6760" time="0" location="/Users/roylee/.ivy2/cache/org.codehaus.woodstox/stax2-api/ivy-4.2.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.codehaus.woodstox/stax2-api/ivy-4.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="4.2.1" rev-constraint-default="4.2.1" rev-constraint-dynamic="4.2.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="stax2-api" type="bundle" ext="jar" status="no" details="" size="195909" time="0" location="/Users/roylee/.ivy2/cache/org.codehaus.woodstox/stax2-api/bundles/stax2-api-4.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.9" status="release" pubdate="20170323213313" resolver="public" artresolver="main" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6696" time="0" location="/Users/roylee/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<caller organisation="org.apache.solr" name="s3-repository" conf="compile" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="634048" time="0" location="/Users/roylee/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

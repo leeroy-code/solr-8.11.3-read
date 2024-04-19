@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@bogon"
+		conf="compile.hadoop"
+		confs="compile, compile.hadoop"
+		date="20240419164146"/>
+	<dependencies>
+		<module organisation="org.apache.kerby" name="kerb-util">
+			<revision name="1.0.1" status="release" pubdate="20170830180944" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<metadata-artifact status="no" details="" size="7251" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-util/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-util/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-util" type="jar" ext="jar" status="no" details="" size="36708" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-util/jars/kerb-util-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-util/1.0.1/kerb-util-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerb-core">
+			<revision name="1.0.1" status="release" pubdate="20170830180821" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<metadata-artifact status="no" details="" size="6863" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-core/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-core/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerb-core" type="jar" ext="jar" status="no" details="" size="226672" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerb-core/jars/kerb-core-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerby-pkix">
+			<revision name="1.0.1" status="release" pubdate="20170830180741" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<metadata-artifact status="no" details="" size="6512" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-pkix/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-pkix/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerby-pkix" type="jar" ext="jar" status="no" details="" size="204650" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-pkix/jars/kerby-pkix-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-pkix/1.0.1/kerby-pkix-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kerby" name="kerby-asn1">
+			<revision name="1.0.1" status="release" pubdate="20170830180607" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<metadata-artifact status="no" details="" size="6720" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-asn1/ivy-1.0.1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-asn1/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="kerby-asn1" type="jar" ext="jar" status="no" details="" size="102174" time="0" location="/Users/roylee/.ivy2/cache/org.apache.kerby/kerby-asn1/jars/kerby-asn1-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/1.0.1/kerby-asn1-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.10" status="release" pubdate="20200323213936" resolver="public" artresolver="main" homepage="https://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="17408" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.10.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.10" rev-constraint-default="3.10" rev-constraint-dynamic="3.10" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="523372" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ben-manes.caffeine" name="caffeine">
+			<revision name="2.9.3" status="release" pubdate="20211203124245" resolver="public" artresolver="main" homepage="https://github.com/ben-manes/caffeine" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2920" time="0" location="/Users/roylee/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/ivy-2.9.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/ivy-2.9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="caffeine" type="jar" ext="jar" status="no" details="" size="912143" time="0" location="/Users/roylee/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/jars/caffeine-2.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-configuration2">
+			<revision name="2.8.0" status="release" pubdate="20220630120454" resolver="public" artresolver="main" homepage="https://commons.apache.org/proper/commons-configuration/" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="23797" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-configuration2/ivy-2.8.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-configuration2/ivy-2.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-configuration2" type="jar" ext="jar" status="no" details="" size="632505" time="0" location="/Users/roylee/.ivy2/cache/org.apache.commons/commons-configuration2/jars/commons-configuration2-2.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-configuration2/2.8.0/commons-configuration2-2.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-hdfs-client">
+			<revision name="3.2.4" status="release" pubdate="20220712200159" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="78333" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-hdfs-client/ivy-3.2.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-hdfs-client/ivy-3.2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs-client/3.2.4/hadoop-hdfs-client-3.2.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="hadoop-hdfs-client" type="jar" ext="jar" status="no" details="" size="5143231" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-hdfs-client/jars/hadoop-hdfs-client-3.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs-client/3.2.4/hadoop-hdfs-client-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-common">
+			<revision name="3.2.4" status="release" pubdate="20220712195920" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="86625" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-common/ivy-3.2.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-common/ivy-3.2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="hadoop-common" type="jar" ext="jar" status="no" details="" size="4198813" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-3.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.htrace" name="htrace-core4">
+			<revision name="4.1.0-incubating" status="release" pubdate="20160210084022" resolver="public" artresolver="main" homepage="http://incubator.apache.org/projects/htrace.html" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="7099" time="0" location="/Users/roylee/.ivy2/cache/org.apache.htrace/htrace-core4/ivy-4.1.0-incubating.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.htrace/htrace-core4/ivy-4.1.0-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="4.1.0-incubating" rev-constraint-default="4.1.0-incubating" rev-constraint-dynamic="4.1.0-incubating" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="htrace-core4" type="jar" ext="jar" status="no" details="" size="1502280" time="0" location="/Users/roylee/.ivy2/cache/org.apache.htrace/htrace-core4/jars/htrace-core4-4.1.0-incubating.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-recipes">
+			<revision name="2.13.0" status="release" pubdate="20181203103724" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<metadata-artifact status="no" details="" size="15531" time="0" location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-recipes/ivy-2.13.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-recipes/ivy-2.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.13.0/curator-recipes-2.13.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="curator-recipes" type="bundle" ext="jar" status="no" details="" size="283653" time="0" location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.13.0/curator-recipes-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20151113071126" resolver="public" artresolver="main" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="11460" time="0" location="/Users/roylee/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.2.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="588337" time="0" location="/Users/roylee/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-auth">
+			<revision name="3.2.4" status="release" pubdate="20220712195634" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="77380" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-auth/ivy-3.2.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-auth/ivy-3.2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.2.4/hadoop-auth-3.2.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="139054" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-3.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/3.2.4/hadoop-auth-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-framework">
+			<revision name="2.13.0" status="release" pubdate="20181203103654" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<metadata-artifact status="no" details="" size="15271" time="0" location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-framework/ivy-2.13.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-framework/ivy-2.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.13.0/curator-framework-2.13.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="curator-framework" type="bundle" ext="jar" status="no" details="" size="201965" time="0" location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.13.0/curator-framework-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.curator" name="curator-client">
+			<revision name="2.13.0" status="release" pubdate="20181203103625" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<metadata-artifact status="no" details="" size="16133" time="0" location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-client/ivy-2.13.0.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-client/ivy-2.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.13.0/curator-client-2.13.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="curator-client" type="bundle" ext="jar" status="no" details="" size="2423157" time="0" location="/Users/roylee/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.13.0/curator-client-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-annotations">
+			<revision name="3.2.4" status="release" pubdate="20220712195145" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="72276" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-annotations/ivy-3.2.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-annotations/ivy-3.2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/3.2.4/hadoop-annotations-3.2.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.2.4" rev-constraint-default="3.2.4" rev-constraint-dynamic="3.2.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="hadoop-annotations" type="jar" ext="jar" status="no" details="" size="60703" time="0" location="/Users/roylee/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-3.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/3.2.4/hadoop-annotations-3.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr4-runtime">
+			<revision name="4.5.1-1" status="release" pubdate="20150821031403" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="3417" time="0" location="/Users/roylee/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="4.5.1-1" rev-constraint-default="4.5.1-1" rev-constraint-dynamic="4.5.1-1" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="antlr4-runtime" type="jar" ext="jar" status="no" details="" size="302034" time="0" location="/Users/roylee/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.1-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

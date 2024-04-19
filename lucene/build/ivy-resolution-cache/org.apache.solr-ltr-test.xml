@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="ltr"
+		revision="working@bogon"
+		conf="test"
+		confs="test"
+		date="20240419164138"/>
+	<dependencies>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="2.23.4" status="release" pubdate="20181121071419" resolver="public" artresolver="main" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3040" time="0" location="/Users/roylee/.ivy2/cache/org.mockito/mockito-core/ivy-2.23.4.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.mockito/mockito-core/ivy-2.23.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.pom"/>
+				<caller organisation="org.apache.solr" name="ltr" conf="test" rev="2.23.4" rev-constraint-default="2.23.4" rev-constraint-dynamic="2.23.4" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="565130" time="0" location="/Users/roylee/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-2.23.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.6" status="release" pubdate="20170620232837" resolver="public" artresolver="main" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="3497" time="0" location="/Users/roylee/.ivy2/cache/org.objenesis/objenesis/ivy-2.6.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.objenesis/objenesis/ivy-2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom"/>
+				<caller organisation="org.apache.solr" name="ltr" conf="test" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="55684" time="0" location="/Users/roylee/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.9.3" status="release" pubdate="20181029020514" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="9515" time="0" location="/Users/roylee/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.9.3.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.pom"/>
+				<caller organisation="org.apache.solr" name="ltr" conf="test" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="jar" ext="jar" status="no" details="" size="3237047" time="0" location="/Users/roylee/.ivy2/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.9.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.36" status="release" pubdate="20220208213514" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6045" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.36.xml" searched="false" original-local-location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.36.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom"/>
+				<caller organisation="org.apache.solr" name="ltr" conf="test" rev="1.7.36" rev-constraint-default="1.7.36" rev-constraint-dynamic="1.7.36" callerrev="working@bogon"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16555" time="0" location="/Users/roylee/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.36.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

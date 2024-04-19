@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:maven="http://ant.apache.org/ivy/maven">
+  <info organisation="org.apache.solr" module="core" revision="working@bogon" status="integration" publication="20240206050715"/>
+  
+  <configurations defaultconfmapping="compile->master;compile.hadoop->master;test->master;test.DfsMiniCluster->master;test.MiniKdc->master">
+    <!-- artifacts in the "compile" and "compile.hadoop" configurations will go into solr/core/lib/ -->
+    <conf name="compile" transitive="false"/>
+    <conf name="compile.hadoop" transitive="false"/>
+    <!-- artifacts in the "test", "test.DfsMiniCluster", and "test.MiniKdc" configuration will go into solr/core/test-lib/ -->
+    <conf name="test" transitive="false"/>
+    <conf name="test.DfsMiniCluster" transitive="false"/>
+    <conf name="test.MiniKdc" transitive="false"/>
+  </configurations>
+
+  <dependencies>
+    <dependency org="io.opentracing" name="opentracing-api" rev="0.33.0" conf="compile"/>
+    <dependency org="io.opentracing" name="opentracing-noop" rev="0.33.0" conf="compile"/>
+    <dependency org="io.opentracing" name="opentracing-util" rev="0.33.0" conf="compile"/>
+    <dependency org="io.opentracing" name="opentracing-mock" rev="0.33.0" conf="test"/>
+
+    <dependency org="commons-codec" name="commons-codec" rev="1.15" conf="compile"/>
+    <dependency org="commons-io" name="commons-io" rev="2.11.0" conf="compile"/>
+    <dependency org="org.apache.commons" name="commons-exec" rev="1.3" conf="compile"/>
+    <dependency org="commons-cli" name="commons-cli" rev="1.4" conf="compile"/>
+    <dependency org="org.apache.commons" name="commons-collections4" rev="4.4" conf="compile"/>
+    <dependency org="org.apache.commons" name="commons-text" rev="1.10.0" conf="compile"/>
+    <dependency org="com.google.guava" name="guava" rev="32.1.3-jre" conf="compile"/>
+    <dependency org="com.google.guava" name="failureaccess" rev="1.0.1" conf="compile"/>
+    <dependency org="com.google.guava" name="listenablefuture" rev="9999.0-empty-to-avoid-conflict-with-guava" conf="compile"/>
+    <dependency org="com.google.j2objc" name="j2objc-annotations" rev="1.3" conf="compile"/>
+    <dependency org="com.j256.simplemagic" name="simplemagic" rev="1.17" conf="compile"/>
+    <dependency org="org.locationtech.spatial4j" name="spatial4j" rev="0.7" conf="compile"/>
+    <dependency org="org.antlr" name="antlr4-runtime" rev="4.5.1-1"/>
+    <dependency org="org.apache.commons" name="commons-math3" rev="3.6.1" conf="compile"/>
+    <dependency org="org.ow2.asm" name="asm" rev="9.3" conf="compile"/>
+    <dependency org="org.ow2.asm" name="asm-commons" rev="9.3" conf="compile"/>
+    <dependency org="com.carrotsearch" name="hppc" rev="0.8.1" conf="compile"/>
+    <dependency org="io.sgr" name="s2-geometry-library-java" rev="1.0.0" conf="compile"/>
+
+    <dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.17.2" conf="compile"/>
+    <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.17.2" conf="compile"/>
+    <dependency org="org.apache.logging.log4j" name="log4j-slf4j-impl" rev="2.17.2" conf="compile"/>
+    <dependency org="org.apache.logging.log4j" name="log4j-1.2-api" rev="2.17.2" conf="compile"/>
+    <dependency org="com.lmax" name="disruptor" rev="3.4.2" conf="compile"/>
+    <dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.7.36" conf="compile"/>
+
+    <dependency org="org.mockito" name="mockito-core" rev="2.23.4" conf="test"/>
+    <dependency org="net.bytebuddy" name="byte-buddy" rev="1.9.3" conf="test"/>
+    <dependency org="org.objenesis" name="objenesis" rev="2.6" conf="test"/>
+
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.15.2" conf="compile"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.15.2" conf="compile"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.15.2" conf="compile"/>
+    <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile" rev="2.15.2" conf="compile"/>
+
+    <dependency org="org.apache.hadoop" name="hadoop-auth" rev="3.2.4" conf="compile.hadoop"/>
+    <dependency org="org.apache.hadoop" name="hadoop-common" rev="3.2.4" conf="compile.hadoop"/>
+    <dependency org="org.apache.hadoop" name="hadoop-hdfs-client" rev="3.2.4" conf="compile.hadoop"/>
+    <!--
+      hadoop-annotations is a runtime dependencies,
+      so even though they are not compile-time dependencies, they are included
+      here as such so that they are included in the runtime distribution.
+     -->
+    <dependency org="org.apache.hadoop" name="hadoop-annotations" rev="3.2.4" conf="compile.hadoop"/>
+
+    <dependency org="org.apache.commons" name="commons-configuration2" rev="2.8.0" conf="compile.hadoop"/>
+    <dependency org="commons-collections" name="commons-collections" rev="3.2.2" conf="compile.hadoop"/>
+    <dependency org="com.github.ben-manes.caffeine" name="caffeine" rev="2.9.3" conf="compile.hadoop"/>
+    <dependency org="com.google.re2j" name="re2j" rev="1.2" conf="compile"/>
+    <dependency org="org.apache.commons" name="commons-lang3" rev="3.10" conf="compile.hadoop"/>
+    <dependency org="org.apache.htrace" name="htrace-core4" rev="4.1.0-incubating" conf="compile.hadoop"/>
+
+    <dependency org="org.apache.curator" name="curator-framework" rev="2.13.0" conf="compile.hadoop"/>
+    <dependency org="org.apache.curator" name="curator-client" rev="2.13.0" conf="compile.hadoop"/>
+    <dependency org="org.apache.curator" name="curator-recipes" rev="2.13.0" conf="compile.hadoop"/>
+
+    <!-- Hadoop auth framework needs kerby jars on server classpath -->
+    <dependency org="org.apache.kerby" name="kerb-core" rev="1.0.1" conf="compile.hadoop"/>
+    <dependency org="org.apache.kerby" name="kerb-util" rev="1.0.1" conf="compile.hadoop"/>
+    <dependency org="org.apache.kerby" name="kerby-asn1" rev="1.0.1" conf="compile.hadoop"/>
+    <dependency org="org.apache.kerby" name="kerby-pkix" rev="1.0.1" conf="compile.hadoop"/>
+
+    <!-- Hadoop DfsMiniCluster Dependencies-->
+    <dependency org="org.apache.hadoop" name="hadoop-minicluster" rev="3.2.4" conf="test.DfsMiniCluster"/>
+    <dependency org="org.apache.hadoop" name="hadoop-common" rev="3.2.4" conf="test.DfsMiniCluster">
+      <artifact name="hadoop-common" type="test" ext="jar" maven:classifier="tests"/>
+    </dependency>
+    <dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="3.2.4" conf="test.DfsMiniCluster">
+      <artifact name="hadoop-hdfs" ext="jar"/>
+      <artifact name="hadoop-hdfs" type="test" ext="jar" maven:classifier="tests"/>
+    </dependency>
+    <dependency org="com.sun.jersey" name="jersey-core" rev="1.19" conf="test.DfsMiniCluster"/>
+    <dependency org="com.sun.jersey" name="jersey-server" rev="1.19" conf="test.DfsMiniCluster"/>
+    <dependency org="com.sun.jersey" name="jersey-servlet" rev="1.19" conf="test.DfsMiniCluster"/>
+    <dependency org="commons-logging" name="commons-logging" rev="1.1.3" conf="test.DfsMiniCluster"/>
+    <dependency org="io.netty" name="netty-all" rev="4.1.99.Final" conf="test.DfsMiniCluster"/>
+    <dependency org="org.apache.commons" name="commons-compress" rev="1.21" conf="test.DfsMiniCluster"/>
+    <dependency org="org.apache.commons" name="commons-text" rev="1.10.0" conf="test.DfsMiniCluster"/>
+
+    <!-- Hadoop MiniKdc Dependencies-->
+    <dependency org="org.apache.hadoop" name="hadoop-minikdc" rev="3.2.4" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerby-config" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-client" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-common" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-crypto" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-identity" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-server" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-simplekdc" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerby-util" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerb-admin" rev="1.0.1" conf="test.MiniKdc"/>
+    <dependency org="org.apache.kerby" name="kerby-kdc" rev="1.0.1" conf="test.MiniKdc"/>
+
+    <!-- StatsComponents percentiles Dependencies-->
+    <dependency org="com.tdunning" name="t-digest" rev="3.1" conf="compile->*"/>
+
+    <!-- SQL Parser -->
+    <dependency org="org.apiguardian" name="apiguardian-api" rev="1.1.2" conf="compile"/>
+    <dependency org="org.checkerframework" name="checker-qual" rev="3.23.0" conf="compile"/>
+    <dependency org="org.apache.calcite" name="calcite-core" rev="1.35.0" conf="compile"/>
+    <dependency org="org.apache.calcite" name="calcite-linq4j" rev="1.35.0" conf="compile"/>
+    <dependency org="org.apache.calcite.avatica" name="avatica-core" rev="1.23.0" conf="compile"/>
+    <dependency org="org.apache.calcite.avatica" name="avatica-metrics" rev="1.23.0" conf="compile"/>
+    <dependency org="org.apache.commons" name="commons-lang3" rev="3.10" conf="compile"/>
+    <dependency org="org.apache.httpcomponents.client5" name="httpclient5" rev="5.1.3" conf="compile"/>
+    <dependency org="org.apache.httpcomponents.core5" name="httpcore5" rev="5.1.3" conf="compile"/>
+    <dependency org="org.apache.httpcomponents.core5" name="httpcore5-h2" rev="5.1.3" conf="compile"/>
+    <dependency org="net.hydromatic" name="eigenbase-properties" rev="1.1.5" conf="compile"/>
+    <dependency org="org.codehaus.janino" name="janino" rev="3.1.8" conf="compile"/>
+    <dependency org="org.codehaus.janino" name="commons-compiler" rev="3.1.8" conf="compile"/>
+    <dependency org="com.google.protobuf" name="protobuf-java" rev="3.15.0" conf="compile"/>
+    <dependency org="com.jayway.jsonpath" name="json-path" rev="2.7.0" conf="compile"/>
+    <dependency org="org.immutables" name="value-annotations" rev="2.9.2" conf="compile"/>
+    <dependency org="org.locationtech.jts" name="jts-core" rev="1.19.0" conf="compile"/>
+    <dependency org="org.locationtech.jts.io" name="jts-io-common" rev="1.19.0" conf="compile"/>
+    <dependency org="org.locationtech.proj4j" name="proj4j" rev="1.1.5" conf="compile"/>
+
+    <!-- Package manager -->
+    <dependency org="com.github.zafarkhaja" name="java-semver" rev="0.9.0" conf="compile"/>
+
+    <dependency org="org.rrd4j" name="rrd4j" rev="3.5" conf="compile"/>
+
+    <!-- JWT Auth plugin -->
+    <dependency org="org.bitbucket.b_c" name="jose4j" rev="0.6.5" conf="compile"/>
+
+    <exclude org="*" ext="*" matcher="regexp" type="source|javadoc"/> 
+  </dependencies>
+</ivy-module>
